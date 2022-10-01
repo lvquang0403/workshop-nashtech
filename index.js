@@ -18,13 +18,14 @@ const manProduct = [
 
 var manElems = manProduct.map((item) => {
   const manElement = `
-  <div class="col-4">
+  <div class="col-auto col-xl-4">
     <div class="card" style="width: 18rem">
         <img
         src="${item.image}"
         class="card-img-top"
         alt="..."
         />
+        <div class="description">XEM NHANH</div>
         <div class="card-body">
         <h5 class="card-title">${item.productName}</h5>
         <p class="card-text">

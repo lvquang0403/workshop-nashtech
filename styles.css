@@ -27,6 +27,27 @@ font-size: 12px;
 .banner-message h3 {
   color: white;
 }
+.card img:hover + .description{
+  display: block;
+}
+
+.description:hover{
+  display: block;
+}
+
+.description{
+  POSITION: absolute;
+  border-color: black;
+  top: 250px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 25px;
+  background-color: beige;
+  width: 50%;
+  text-align: center;
+  opacity: 0.8;
+  display: none;
+}
 
 .footer {
   background-color: aquamarine;
@@ -36,5 +57,11 @@ font-size: 12px;
   position: sticky;
   top: 0px;
 }
+
+.card:hover{
+  color: orange;
+}
+
+
 
 
