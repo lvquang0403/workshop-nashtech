@@ -1,0 +1,40 @@
+.banner-wrapper {
+  position: relative;
+}
+
+#number-item {
+display: block;
+background-color: pink;
+border-radius: 50%;
+top: 6px;
+right: 66px;
+position: absolute;
+font-size: 12px;
+}
+
+.banner-message {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner-message h4 {
+  color: red;
+}
+
+.banner-message h3 {
+  color: white;
+}
+
+.footer {
+  background-color: aquamarine;
+}
+
+.filter {
+  position: sticky;
+  top: 0px;
+}
+
+
